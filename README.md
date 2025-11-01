@@ -97,6 +97,20 @@ docs uv
 
 - 🔌 Recommended extensions are listed in `.vscode/extensions.json`:
   - Code spell checker, Better Comments, Markdown lint, Bracket colorizer, Auto-rename tag, Colorize, Material Icons, AI completion
+  ```json
+  {
+    "recommendations": [
+      "streetsidesoftware.code-spell-checker",
+      "aaron-bond.better-comments",
+      "DavidAnson.vscode-markdownlint",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "formulahendry.auto-rename-tag",
+      "kamikillerto.vscode-colorize",
+      "PKief.material-icon-theme",
+      "TabNine.tabnine-vscode"
+    ]
+  }
+  ```
 - 🧩 Editor suggestions
   - Enable current line highlight
   - Choose dyslexia-friendly fonts (e.g., Hack, Source Code Pro, OpenDyslexic)
