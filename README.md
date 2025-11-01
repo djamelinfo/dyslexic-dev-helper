@@ -35,9 +35,9 @@ This tool helps by using **visual memory** — emojis, colors, and structure —
 
 | Folder | Description |
 |---------|-------------|
-| [`powershell-dev-docs-helper`](powershell-dev-docs-helper) | PowerShell helper with docs function |
-| [`Bash`](Bash) | Bash version (coming soon) |
-| [`vscode-tool`](vscode-tool) | VS Code tips and accessibility extensions |
+| [`scripts/powershell`](scripts/powershell) | PowerShell helpers (`docs.ps1`) |
+| [`docs/powershell`](docs/powershell) | PowerShell setup and customization guides |
+| [`images`](images) | Screenshots used in docs |
 
 ---
 
@@ -57,15 +57,15 @@ Output screenshot:
 
 - One function to print short, readable command reminders with colors and clear structure.
 - Topics: git, docker, kube, rancher, ps, uv
-- Function file: `powershell-dev-docs-helper/docs-function.ps1`
+- Function file: `scripts/powershell/docs.ps1`
 
 📥 Installation
 - Open profile: `code $PROFILE`
-- Paste the function from `powershell-dev-docs-helper/docs-function.ps1`
+- Paste the function from `scripts/powershell/docs.ps1`
 - Reload: `. $PROFILE`
 
 Quick try (no profile change)
-- `. .\powershell-dev-docs-helper\docs-function.ps1`
+ - `. .\scripts\powershell\docs.ps1`
 - then run: `docs git`
 
 ▶️ Usage
