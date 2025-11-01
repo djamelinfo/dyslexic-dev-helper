@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "DavidAnson.vscode-markdownlint",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "formulahendry.auto-rename-tag",
+    "kamikillerto.vscode-colorize",
+    "PKief.material-icon-theme",
+    "TabNine.tabnine-vscode"
+  ]
+}
